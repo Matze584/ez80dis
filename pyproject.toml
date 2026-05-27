@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ez80dis"
+version = "1.0.1"
+description = "ADL-aware Z80/eZ80 disassembler"
+readme = "README.md"
+license = { text = "The Unlicense" }
+requires-python = ">=3.8"
+keywords = ["z80", "ez80", "disassembler", "eZ80F91", "ADL"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Disassemblers",
+    "Topic :: System :: Hardware",
+]
+
+[tool.setuptools]
+py-modules = ["ez80dis"]
