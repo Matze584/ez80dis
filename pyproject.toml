@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ez80dis"
+homepage = "https://github.com/Matze584/ez80dis"
 version = "1.0.1"
 description = "ADL-aware Z80/eZ80 disassembler"
 readme = "README.md"
@@ -18,6 +19,11 @@ classifiers = [
     "Topic :: Software Development :: Disassemblers",
     "Topic :: System :: Hardware",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Matze584/ez80dis"
+Repository = "https://github.com/Matze584/ez80dis"
+Issues = "https://github.com/Matze584/ez80dis/issues"
 
 [tool.setuptools]
 py-modules = ["ez80dis"]

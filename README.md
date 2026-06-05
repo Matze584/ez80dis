@@ -4,6 +4,8 @@ A Python disassembler for the **Zilog eZ80** CPU, extending
 [z80dis](https://github.com/lwerdna/z80dis) with full eZ80
 instruction set support.
 
+Found a bug? → [Open an issue!](https://github.com/Matze584/ez80dis/issues)
+
 ## Features
 
 - All standard Z80 instructions
