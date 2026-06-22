@@ -746,9 +746,9 @@ def decode(data, addr=0, adl=False):
             if pfx == 0x5B:
                 mode_suffix = '.lil'; long_op = True
             elif pfx == 0x49:
-                mode_suffix = '.lis'; long_op = True
+                mode_suffix = '.lis'; long_op = False
             elif pfx == 0x52:
-                mode_suffix = '.sil'; long_op = False
+                mode_suffix = '.sil'; long_op = True
             else:  # 0x40
                 mode_suffix = '.sis'; long_op = False
 

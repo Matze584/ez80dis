@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ez80dis"
-version = "1.0.3"
+version = "1.0.4"
 description = "ADL-aware Z80/eZ80 disassembler"
 readme = "README.md"
 license = { text = "The Unlicense" }
